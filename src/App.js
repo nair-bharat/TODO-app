@@ -44,7 +44,7 @@ function App() {
 
         {/* We are using some styling elements using material UI using input and inputcontrol */}
         <FormControl>
-        <InputLabel>Write a TODO</InputLabel>
+        <InputLabel>Write a TODO!</InputLabel>
         <Input value = {input} onChange = {event => setInput(event.target.value)}/>
         </FormControl>
 
